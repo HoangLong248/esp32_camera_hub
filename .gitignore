@@ -1,0 +1,35 @@
+# ── Secrets ───────────────────────────────────────────
+.env
+src/core/arduino/CameraWebServer/secrets.h
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Arduino / C++ ─────────────────────────────────────
+*.elf
+*.bin
+*.hex
+*.map
+build/
+.arduino15/
+
+# ── VS Code ───────────────────────────────────────────
+.vscode/
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Tests ─────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
