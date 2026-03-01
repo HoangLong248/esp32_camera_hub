@@ -4,38 +4,6 @@ A multi-platform camera monitoring system built on the **ESP32-CAM**. Stream liv
 
 ---
 
-## 📁 Project Structure
-
-```
-├── .env                        # Secrets (never commit)
-├── .env.example                # Template for .env
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── src
-    ├── app.py                  # Main entry point
-    ├── core
-    │   └── arduino
-    │       ├── CameraWebServer/
-    │       │   ├── CameraWebServer.ino
-    │       │   ├── secrets.h   # Auto-generated (never commit)
-    │       │   └── ...
-    │       └── init/
-    │           └── generate_secrets.py
-    ├── esp32/
-    │   └── main.py             # ESP32 stream/capture logic
-    ├── slack/
-    │   └── main.py             # Slack integration
-    ├── telegram/
-    │   └── main.py             # Telegram integration
-    ├── discord/
-    │   └── main.py             # Discord integration
-    └── webhook/
-        └── main.py             # Generic webhook integration
-```
-
----
-
 ## ⚙️ Requirements
 
 - Python 3.10+
